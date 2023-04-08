@@ -1,0 +1,83 @@
+body{
+    background-color:lightgray;
+}
+.container{
+    height: auto;
+    background-color: white;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 450px;
+}
+.r11{
+    background-color:lightseagreen ;
+    height: 50px;
+}
+.r12{
+    background-color: white;
+    height: 200px;
+}
+.r13{
+    background-color: lightseagreen;
+    height: auto;
+    margin: 0px;
+}
+.r2{
+    margin-top: 10px;
+    
+}
+.r4,.r3{
+    margin: 0px;
+}
+
+.c41{
+    height: auto;
+
+    background-color: rgb(224, 222, 219);
+}
+.r4{
+    margin-top: 10px;
+    background-color: rgb(101, 174, 171);
+    height: auto;
+}
+.r22{
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.c41{
+    height: 150px;
+    padding-left: 5px;
+    padding: 5px;
+    display: flex;
+}
+.anh{
+    width: 50%;
+}
+
+.text{
+    width: 50%;
+}
+/* nav---------- */
+.navbar{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    justify-content: left;
+}
+.navbar a{
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(21, 120, 115);
+    color: white;
+    box-shadow: 0px 0px 3px 3px lemonchiffon;
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
